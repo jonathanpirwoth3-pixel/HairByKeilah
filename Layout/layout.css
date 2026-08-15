@@ -1,0 +1,248 @@
+body {
+    background-color: black;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.HBKBackground {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.HBKBackground img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 40px; /* distance from top */
+    width: 100%;
+}
+
+.logo img {
+    width: 500px; /* change size here */
+    height: auto;
+}
+.Navigation {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+
+.Navigation nav {
+    display: flex;
+    gap: 70px;
+
+    padding: 20px 60px;
+
+    background: linear-gradient(135deg, #111, #2b2b2b);
+    border-radius: 15px;
+
+    box-shadow: 0 5px 20px rgba(212, 175, 55, 0.4);
+}
+
+
+.Navigation a {
+    color: #d4af37;
+    text-decoration: none;
+
+    font-size: 26px;
+    font-weight: bold;
+
+    font-family: "Georgia", serif;
+
+    transition: 0.3s;
+}
+
+
+.Navigation a:hover {
+    color: white;
+    transform: scale(1.1);
+}
+/* ==============================
+   HAIRSTYLE GALLERY
+   ============================== */
+
+#hairstyleContainer {
+    width: 90%;
+    max-width: 1400px;
+    margin: 60px auto;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px;
+}
+
+
+/* ==============================
+   HAIRSTYLE CARD
+   ============================== */
+
+.hairstyle-card {
+    position: relative;
+    overflow: hidden;
+
+    background: linear-gradient(
+            145deg,
+            #fff0f7,
+            #fce4ec,
+            #f8d7e8
+    );
+    border: 2px solid black;
+    border-radius: 24px;
+    padding: 12px;
+
+    box-shadow:
+            0 10px 25px rgba(0, 0, 0, 0.12),
+            0 0 0 rgba(255, 105, 180, 0);
+
+    transition:
+            transform 0.4s ease,
+            box-shadow 0.4s ease;
+
+    cursor: pointer;
+}
+
+
+/* Decorative glow */
+
+.hairstyle-card::before {
+    content: "";
+
+    position: absolute;
+
+    width: 180px;
+    height: 180px;
+
+    top: -90px;
+    right: -90px;
+
+    background: rgba(255, 105, 180, 0.25);
+
+    border-radius: 50%;
+
+    transition: 0.5s ease;
+}
+
+
+/* Hover animation */
+
+.hairstyle-card:hover {
+    transform: translateY(-12px) scale(1.02);
+
+    box-shadow:
+            0 20px 40px rgba(0, 0, 0, 0.18),
+            0 0 30px rgba(255, 105, 180, 0.25);
+}
+
+
+.hairstyle-card:hover::before {
+    transform: scale(2);
+}
+
+
+/* ==============================
+   IMAGE
+   ============================== */
+
+.hairstyle-card img {
+    width: 100%;
+    height: 360px;
+
+    display: block;
+
+    object-fit: cover;
+
+    border-radius: 18px;
+
+    transition:
+            transform 0.6s ease,
+            filter 0.6s ease;
+}
+
+
+/* Image zoom */
+
+.hairstyle-card:hover img {
+    transform: scale(1.06);
+
+    filter: brightness(1.05);
+}
+
+
+/* ==============================
+   HAIRSTYLE NAME
+   ============================== */
+
+.hairstyle-card h2 {
+    position: relative;
+
+    margin: 18px 10px 12px;
+
+    text-align: center;
+
+    font-family: Georgia, serif;
+
+    font-size: 23px;
+
+    letter-spacing: 0.5px;
+
+    color: #8e2857;
+
+    transition:
+            color 0.3s ease,
+            transform 0.3s ease;
+}
+
+
+.hairstyle-card:hover h2 {
+    color: #d63384;
+
+    transform: translateY(-2px);
+}
+
+
+/* ==============================
+   TABLET
+   ============================== */
+
+@media (max-width: 950px) {
+
+    #hairstyleContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+/* ==============================
+   PHONE
+   ============================== */
+
+@media (max-width: 600px) {
+
+    #hairstyleContainer {
+        width: 92%;
+
+        grid-template-columns: 1fr;
+
+        gap: 25px;
+    }
+
+
+    .hairstyle-card img {
+        height: 400px;
+    }
+
+}
