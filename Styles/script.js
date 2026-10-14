@@ -62,7 +62,7 @@ const hairstyles = [
     },
     {
         name: "",
-        image: "Pic16.png"
+        image: "Pic16.jpg"
     },
     {
         name: "",

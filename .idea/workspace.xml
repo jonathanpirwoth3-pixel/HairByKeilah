@@ -14,13 +14,84 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jonathanpirwoth3-pixel&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jonathanpirwoth3-pixel/HairByKeilah.git&quot;,
+    &quot;accountId&quot;: &quot;fcee03be-f0a3-4acf-a567-4dc89727b095&quot;
+  }
+}</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.000000000000128" />
+      <entry key="MS500" value="1.003122571092981" />
+      <entry key="S2" value="1.6383372048869695" />
+      <entry key="S5" value="3.8446441252527066" />
+      <entry key="S10" value="6.580372414991589" />
+      <entry key="S30" value="10.88505943995709" />
+      <entry key="S60" value="15.1315169012773" />
+      <entry key="M2" value="24.708329666128794" />
+      <entry key="M5" value="48.70724971910636" />
+      <entry key="M10" value="70.83302950370563" />
+      <entry key="M15" value="82.17181168226396" />
+      <entry key="M30" value="96.56520906231877" />
+      <entry key="H1" value="105.20884459233974" />
+      <entry key="H2" value="110.34803647499992" />
+      <entry key="H4" value="115.90395773232675" />
+      <entry key="D1" value="135.50798264338533" />
+      <entry key="W1" value="143.4362518451797" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="1.2206772735568672E-223" />
+      <entry key="M2" value="3.4938192190736907E-112" />
+      <entry key="M5" value="2.614087809367394E-45" />
+      <entry key="M10" value="5.112815085026432E-23" />
+      <entry key="M15" value="1.377547947227571E-15" />
+      <entry key="M30" value="3.711533304750977E-8" />
+      <entry key="H1" value="1.9265340133906201E-4" />
+      <entry key="H2" value="0.01387996402513574" />
+      <entry key="H4" value="0.11781325912279877" />
+      <entry key="D1" value="0.7001627929314237" />
+      <entry key="W1" value="0.9503543687215702" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="7.778212038123962E-10" />
+      <entry key="MS500" value="0.01779768402554321" />
+      <entry key="S2" value="0.9015488652507573" />
+      <entry key="S5" value="3.2447746486939146" />
+      <entry key="S10" value="6.0937615009952495" />
+      <entry key="S30" value="10.625462143975914" />
+      <entry key="S60" value="14.961797009020808" />
+      <entry key="M2" value="24.561529453359768" />
+      <entry key="M5" value="48.56450758179282" />
+      <entry key="M10" value="70.72257183680092" />
+      <entry key="M15" value="82.08523348565996" />
+      <entry key="M30" value="96.5138967897979" />
+      <entry key="H1" value="105.1810166489251" />
+      <entry key="H2" value="110.34717687729099" />
+      <entry key="H4" value="116.01389594111207" />
+      <entry key="D1" value="136.20648893955496" />
+      <entry key="W1" value="144.3863492084663" />
+    </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2,
@@ -31,23 +102,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="HairByKeilah" />

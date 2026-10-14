@@ -211,7 +211,17 @@ body {
 
     transform: translateY(-2px);
 }
+.Information {
+    text-align: center;
+    font-size: 60px;
+    font-family: Times New Roman;
+}
 
+.services {
+    text-align: center;
+    font-size: 60px;
+    font-family: Times New Roman;
+}
 
 /* ==============================
    TABLET
